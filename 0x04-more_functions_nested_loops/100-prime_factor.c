@@ -13,7 +13,7 @@ for (; i < 12057; i += 2)
 while (n % i == 0 && n != i)
 n /= i;
 }
-printf("%1u\n", n);
+printf("%1lu\n", n);
 return (0);
 }
 
